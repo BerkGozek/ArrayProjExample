@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0077B6F2B82834C008669A4 /* appDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0077B6E2B82834C008669A4 /* appDemo.gif */; };
 		D07C9F862B7A41FE001E975E /* ArrayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C9F852B7A41FE001E975E /* ArrayApp.swift */; };
 		D07C9F882B7A41FE001E975E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C9F872B7A41FE001E975E /* ContentView.swift */; };
 		D07C9F8A2B7A4201001E975E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07C9F892B7A4201001E975E /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0077B6E2B82834C008669A4 /* appDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = appDemo.gif; sourceTree = "<group>"; };
 		D07C9F822B7A41FE001E975E /* Array.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Array.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07C9F852B7A41FE001E975E /* ArrayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayApp.swift; sourceTree = "<group>"; };
 		D07C9F872B7A41FE001E975E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0077B6D2B828331008669A4 /* AssetsForGithub */ = {
+			isa = PBXGroup;
+			children = (
+				D0077B6E2B82834C008669A4 /* appDemo.gif */,
+			);
+			path = AssetsForGithub;
+			sourceTree = "<group>";
+		};
 		D07C9F792B7A41FE001E975E = {
 			isa = PBXGroup;
 			children = (
+				D0077B6D2B828331008669A4 /* AssetsForGithub */,
 				D07C9F842B7A41FE001E975E /* Array */,
 				D07C9F952B7A4201001E975E /* ArrayTests */,
 				D07C9F9F2B7A4201001E975E /* ArrayUITests */,
@@ -233,6 +244,7 @@
 			files = (
 				D07C9F8D2B7A4201001E975E /* Preview Assets.xcassets in Resources */,
 				D07C9F8A2B7A4201001E975E /* Assets.xcassets in Resources */,
+				D0077B6F2B82834C008669A4 /* appDemo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
